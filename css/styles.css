@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bosh-container{
+    display: flex;
+    margin-top: 200px;
+    max-width: 1280px;
+    padding: 0 20px;
+}
+ul, ol{
+    list-style-type: none;
+    padding-left: 80px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.title{
+ font-size: 80px;
+ font-weight: 900;
+ line-height: 72px;
+ text-align: center;
+ padding-left: 350px;
+ color: #0E8784;
+}
+
+ /* first maket styles started */
+
+.buy__body{
+   background-color: #00BAFC;
+}
+.buy__container{
+    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto
+}
+.buy__box{
+    width: 348px ;
+    height: 320px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.buy__text{
+    width: 719px;
+    padding-left: 250px;
+}
+.form{
+    padding: 20px;
+}
+.inp{
+    padding-right: 135px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.inp {
+    outline: none;
+}
+.buy__select{
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 16px 100px;
+    color: black;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.3s ease all;
+}
+.buy__select:hover{
+ background-color: black;
+ color: #fff;
+
+}
+.buy__btn{
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    padding: 16px 100px;
+    color:#00BAFC;
+    display: inline-block;
+    transition: 0.3s ease all;
+}
+.buy__btn:hover{
+    background-color: #00BAFC;
+    color: #fff;
+}
+
+/* second maket styles stard */
+
+.twit__container{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.twit__box{
+    width: 348px ;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.twit__btn{
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    padding: 16px 140px;
+    color:#00BAFC;
+    display: inline-block;
+    transition: 0.3s ease all; 
+}
+.twit__btn:hover{
+    color: #fff;
+    background-color: #00BAFC;
+}
+.twit__link{
+   display: inline-block;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+/* thirts styles stard */
+
+.create__container{
+    margin: 0 auto;
+    padding: 15px 40px;
+    text-align: center;
+
+}
+.create__content{
+    width: 750px;
+    height: 800px;
+    padding-top: 50px;
+    padding-left: 200px;
+    text-align: left;
+}
+.create__title{
+  font-size: 30px;
+  font-weight: 700;
+}
+.form{
+    padding: 20px 0px;
+}
+.create__inp{
+    padding-left: 15px;
+    padding-right: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.create__inp{
+    outline: none;
+}
+.create__link{
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 20px;
+    color: #1DA1F2;
+}
+.create__select{
+    margin-top: 20px;
+    padding-right: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.create__select:hover{
+    color: #fff;
+    background-color: #0E8784;
+}
+.create__btn{
+    border: 1px solid #00BAFC;
+    color: white;
+    background-color: #00BAFC;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.create__btn:hover{
+    color: #00BAFC;
+    background-color: #fff;
+}
